@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba48008116.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>HomeVerve</title>
+</head>
+<body>
+    <section id="header">
+        <a href="#" class="logo">HomeVerve</a>
+        <nav>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact">Contact us</a></li>
+                <li><a href="cart.html" id="lg-bag"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <img id="close" src="slider/icon-close.svg" alt="">
+
+            </ul>
+            <div id="mobile">
+                <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+
+                <img id="bar" src="slider/icon-menu.svg" alt="" >
+            </div>
+        </nav>
+    </section>
+    <section id="page-header">
+      
+        <h2>#Stayhome</h2>
+        
+        <p>Save more with Coupons & up to 70% off!</p>
+       
+    </section>
+    <!-------------------------- hero end--------------- -->
+   
+    <!-- feature end --------------- -->
+    <section id="product1" class="section-p1">
+  <h2>Featured Products</h2>
+
+  <div class="pro-container">
+    <div class="pro" onclick="window.location.href='summer.html'">
+        <img src="products/img/products/f4.jpg" alt="">
+        <div class="des">
+            <span>Zara</span>
+            <h5>Summer Shirt</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4 class="product-price">$100</h4>
+        </div>
+      <a href="cart.html" onclick="addToCart('products/summer/1 (6).jpg', 'Summershirt', '$100')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+    </div>
+    <div class="pro" onclick="window.location.href='pulloverproduct.html'">
+        <img src="products/pullover/1 (9).jpg" alt="">
+        <div class="des">
+            <span>Nike</span>
+            <h5>Jacket</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4 class="product-price">$90</h4>
+        </div>
+        <a href="cart.html" onclick="addToCart('products/pullover/1 (9).jpg', 'Jacket', '$90')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+    </div>
+    <div class="pro" onclick="window.location.href='winterproduct.html'">
+        <img src="products/winter/1 (3).jpg" alt="">
+        <div class="des">
+            <span>Prada</span>
+            <h5>winter-wear</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4 class="product-price">$120</h4>
+        </div>
+      <a href="cart.html" onclick="addToCart('products/winter/1 (3).jpg', 'winter-wear', '$120')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+    </div>
+    <div class="pro" onclick="window.location.href='hoodieproduct.html'">
+        <img src="products/hoodies/1 (3).jpg" alt="">
+        <div class="des">
+            <span>Fashion</span>
+            <h5>pullover</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4 class="product-price">$110</h4>
+        </div>
+      <a href="cart.html" onclick="addToCart('products/hoodies/1 (3).jpg', 'pullover', '$110')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+    </div>
+    <div class="pro" onclick="window.location.href='adidas shoes.html'">
+        <img src="products/shoes/adidas Campus 00s Shoes - Brown _ Unisex Lifestyle _ adidas US.jpg" alt="">
+        <div class="des">
+            <span>adidas</span>
+            <h5>Adidas Unisex</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4 class="product-price">$250</h4>
+        </div>
+      <a href="cart.html" onclick="addToCart('products/shoes/adidas Campus 00s Shoes - Brown _ Unisex Lifestyle _ adidas US.jpg', 'Adidas Unisex', '$250')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+    </div>
+    <div class="pro" onclick="window.location.href='shoesproduct.html'">
+        <img src="products/shoes/Nike_ Just Do It.jpg" alt="">
+        <div class="des">
+            <span>Nike</span>
+            <h5>Nike trainer</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4 class="product-price">$200</h4>
+        </div>
+     <!-- shop.html -->
+     <a href="cart.html" onclick="addToCart('products/shoes/Nike_ Just Do It.jpg', 'Nike trainer', '$200')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+
+
+    </div>
+    <div class="pro" onclick="window.location.href='ladiesbag.html'">
+        <img src="products/ladies/ladiesbag (2).jpg" alt="">
+        <div class="des">
+            <span>Prada</span>
+            <h5>Summershirt</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4 class="product-price">$100</h4>
+        </div>
+      <a href="cart.html" onclick="addToCart('products/ladies/ladiesbag (2).jpg', 'ladiesbag', '$100')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+    </div>
+    <div class="pro" onclick="window.location.href='adidas shoes.html'">
+        <img src="products/shoes/Tênis Forum Bold Stripes Unisex.jpg" alt="">
+        <div class="des">
+            <span>adidas</span>
+            <h5>Tennis Forum</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4 class="product-price">$280</h4>
+        </div>
+      <a href="cart.html"  onclick="addToCart('products/shoes/Tênis Forum Bold Stripes Unisex.jpg', 'Tennis Forum', '$280')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+    </div>
+      <div class="pro"  onclick="window.location.href='ladiesbag.html'">
+          <img src="products/ladies/ladiesbag (1).jpg" alt="">
+          <div class="des">
+              <span>Amiri</span>
+              <h5>Shirt</h5>
+              <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 class="product-price">$150</h4>
+          </div>
+        <a href="cart.html" onclick="addToCart('products/ladies/ladiesbag (1).jpg', 'ladiesbag', '$150')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+      </div>
+      <div class="pro" onclick="window.location.href='summer.html'">
+          <img src="products/img/products/f1.jpg" alt="">
+          <div class="des">
+              <span>Zara</span>
+              <h5>Shirt</h5>
+              <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 class="product-price">$120</h4>
+          </div>
+        <a href="cart.html" onclick="addToCart('products/img/products/f1.jpg', 'Zara', '$120')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+      </div>
+      <div class="pro" onclick="window.location.href='winterproduct.html'">
+          <img src="products/winter/1 (6).jpg" alt="">
+          <div class="des">
+              <span>HomeVerve</span>
+              <h5>winter</h5>
+              <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 class="product-price">$130</h4>
+          </div>
+        <a href="cart.html" onclick="addToCart('products/winter/1 (6).jpg', 'winter-wear', '$130')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+      </div>
+      <div class="pro" onclick="window.location.href='shoesproduct.html'">
+          <img  src="products/shoes/Converse Women Chuck Taylor All Star Platform High-Top Sneaker.jpg" alt="">
+          <div class="des">
+              <span>Converse</span>
+              <h5>Chuck Taylorr</h5>
+              <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 class="product-price">$400</h4>
+          </div>
+        <a href="cart.html" onclick="addToCart('products/shoes/Converse Women Chuck Taylor All Star Platform High-Top Sneaker.jpg', 'Chuck Taylorr', '$400')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+      </div>
+      <div class="pro" onclick="window.location.href='shoesproduct.html'">
+          <img src="products/shoes/FORUM LOW SHOES $100.jpg" alt="">
+          <div class="des">
+              <span>Adidas</span>
+              <h5>Low Forum</h5>
+              <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 class="product-price">$300</h4>
+          </div>
+        <a href="cart.html" onclick="addToCart('products/shoes/Nike_ Just Do It.jpg', 'Adidas', '$300')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+      </div>
+
+      <div class="pro"onclick="window.location.href='ladiesproduct.html'">
+          <img src="products/ladies/lady.jpg" alt="">
+          <div class="des">
+              <span>Nike</span>
+              <h5>Nike trainer</h5>
+              <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 class="product-price">$150</h4>
+          </div>
+        <a href="cart.html" onclick="addToCart('products/img/products/f8.jpg', 'Zara', '$150')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+      </div>
+      <div class="pro" onclick="window.location.href='shoesproduct.html'">
+          <img src="products/shoes/Nike Dunk Low SP White _ Red.jpg" alt="">
+          <div class="des">
+              <span>Nike</span>
+              <h5>Nike Dunk Low</h5>
+              <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 class="product-price">$300</h4>
+          </div>
+        <a href="cart.html" onclick="addToCart('products/shoes/Nike Dunk Low SP White _ Red.jpg', 'Nike Dunkred', '$300')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+      </div>
+      <div class="pro" onclick="window.location.href='summer.html'">
+          <img src="products/img/products/f3.jpg" alt="">
+          <div class="des">
+              <span>Nike</span>
+              <h5>Nike trainer</h5>
+              <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+              <h4 class="product-price">$200</h4>
+          </div>
+        <a href="cart.html" onclick="addToCart('products/img/products/f3.jpg', 'Prada', '$200')"><i class="fa-solid fa-bag-shopping cart"></i></a>
+      </div>
+    </div>
+      </section>
+      <!-- --------------------------------product1end--------------------------------------------------------------- -->
+     <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+
+     </section>
+      
+      
+
+      <section id="newsletter" class="section-p1 section-m1">
+<div class="newstext">
+    <h4>Sign Up For Newsletter</h4>
+    <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+
+</div>
+<form action="https://formspree.io/f/mdoqnzbw" method="POST">
+<div class="form">
+  
+        <input type="email" placeholder="Your email address" required>
+        <button  type="submit" class="normal">Sign Up</button>
+   
+
+</div>
+</form>
+      </section>
+
+
+      <!-- newsletter end --------------- -->
+
+      <footer class="section-p1">
+        <div class="col">
+            <a href="" class="logo">HomeVerve</a>
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>562 Wellington Road, Street 32, San Francisco</p>
+            <p><strong>Phone:</strong>+01 2222 365/ (+91) 01 2345 6789</p>
+            <p><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</p>
+            <div class="folllow">
+<h4>Follow us</h4>
+<div class="icons">
+    <i class="fab fa-facebok-f"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-pinterest-p"></i>
+</div>
+            </div>
+
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="">About us</a>
+            <a href="">Delivery Policy</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms & condition</a>
+            <a href="">Contact us</a>
+
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="">View Cart</a>
+            <a href="">track Order</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Help</a>
+            <a href="">My Wishlist</a>
+
+        </div>
+        <div class="col install">
+            <h4>Istall</h4>
+            <p>From App Store or google play</p>
+            <div class="row">
+                <img src="products/img/pay/app.jpg" alt="">
+                <img src="products/img/pay/play.jpg" alt="">
+            </div>
+            <p>Secure Payment Gateway</p>
+            <img src="products/img/pay/pay.png" alt="">
+           
+
+        </div>
+<div class="copyright">
+    <p>2024,HomeVerve - All Rights Reserved</p>
+</div>
+      </footer>
+      <!-- footer -->
+    <script src="script.js"></script>
+
+    <script src="shop.js"></script>
+</body>
+</html>
